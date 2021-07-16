@@ -21,7 +21,7 @@ public abstract class Character {
 
     /**
      * Constructor that sets the shared attributes. The child specific attributes are set in the corresponding constructor.
-     * @param name
+     * @param name - String of the name.
      */
     public Character(String name) {
         this.name = name;
@@ -80,7 +80,7 @@ public abstract class Character {
 
     /**
      * Removes the equipment with a certain key(slot). Throws an exception if the hashmap don't have that key.
-     * @param slot
+     * @param slot - Slot enum.
      * @throws NoArmorEquippedException
      */
     public void unequip(Slot slot) throws NoArmorEquippedException {
@@ -100,7 +100,7 @@ public abstract class Character {
     /**
      * Abstract method that are implemented in the subclasses as each child have different conditions for what they can equip.
      * Throws custom InvalidWeaponException if they are not allowed to equip that weapon.
-     * @param weapon
+     * @param weapon - A weapon object.
      * @throws InvalidWeaponException
      */
     abstract public void equipWeapon(Weapon weapon) throws InvalidWeaponException;
@@ -108,7 +108,7 @@ public abstract class Character {
     /**
      * Abstract method that are implemented in the subclasses as each child have different conditions for what they can equip.
      * Throws custom InvalidArmorException if they are not allowed to equip that armor type.
-     * @param armor
+     * @param armor - Armor object.
      * @throws InvalidArmorException
      */
     abstract public void equipArmor(Armor armor) throws InvalidArmorException;
@@ -126,7 +126,7 @@ public abstract class Character {
     /**
      * Abstract method that increases the characters level and updates the BaseStats and secondary attributes.
      * This method takes a parameter to increase more than one level. Throws exception if argument are lower than 1.
-     * @param levels
+     * @param levels - Number of levels to increase.
      * @throws IllegalArgumentException
      */
     abstract public void levelUp(int levels) throws IllegalArgumentException;
