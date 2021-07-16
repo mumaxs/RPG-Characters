@@ -1,4 +1,4 @@
-package items.exceptions;
+package exceptions;
 
 /**
  * Custom no armor equipped exception.

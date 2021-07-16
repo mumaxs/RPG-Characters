@@ -1,7 +1,7 @@
 package character;
 
 import items.*;
-import items.exceptions.*;
+import exceptions.*;
 
 /**
  * Child class that extends the abstract class Character. Sets the child specific attributes;

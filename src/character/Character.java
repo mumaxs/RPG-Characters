@@ -1,7 +1,7 @@
 package character;
 
 import items.*;
-import items.exceptions.*;
+import exceptions.*;
 import stats.*;
 
 import java.util.HashMap;

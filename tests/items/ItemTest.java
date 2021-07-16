@@ -1,8 +1,8 @@
 package items;
 
 import character.Warrior;
-import items.exceptions.InvalidArmorException;
-import items.exceptions.InvalidWeaponException;
+import exceptions.InvalidArmorException;
+import exceptions.InvalidWeaponException;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

@@ -1,12 +1,13 @@
 import character.*;
 import items.*;
-import items.exceptions.*;
+import exceptions.*;
 
 /**
  * A text based RPG program that can create different characters, weapons and armors. Each character can level up to
  * increase their stats, equip and unequip armor and weapons.
  *
  * @author Marcus Thornemo Larsson
+ *
  */
 public class Main {
 
